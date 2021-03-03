@@ -17,9 +17,9 @@ const obj4 = {apellido: 'Soto', nombre: 'Javier'};
 // cuando se usa la abstraccion de igualdad o bien la igualdad debil
 // JS no compara los tipos entre sus valores y en su lugar lo que hace
 // es algo lamado la coercion de tipos en la que JS intenta convertir el tipo
-// de los alguno de los valores para hacer la comparacion y es donde
+// de alguno de los valores para hacer la comparacion y es donde
 // incluso puede entrar otro concepto como lo son los valores truly y falsy
-//se recomienda solamente usarlo cuando se va a comparar con undefined
+// se recomienda solamente usarlo cuando se va a comparar con undefined
 // ya que si se compara algo con estos de modo estricto nos dara false
 console.log("Empiezan las comparaciones con igualdad debil");
 console.log('number1 == number1String :>> ', number1 == number1String);
